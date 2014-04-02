@@ -20,13 +20,13 @@ var e = new FakeEvent();
 
 // LOOP THROUGH TARGET WORDS
 window.setInterval(function(){
-  if (ig.game.score < 888888) {
+  if (ig.game.score < 9888888) {
     var words = ig.game.entities;
     var n = words.length;
     var wordLen = 0;
     var c, word;
     if (n > 0) {
-      for (i = 0; i < n; i++) {
+      //for (i = 0; i < n; i++) {
         word = ig.game.entities[1].remainingWord;
         wordLen = word.length;
         for (j = 0; j < wordLen; j++) {
@@ -34,7 +34,7 @@ window.setInterval(function(){
           e.setKey(c);
           ig.game.keydown(e);
         }
-      }
+      //}
     }
   }
-}, 5000);
+}, 500);
