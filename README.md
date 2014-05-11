@@ -7,3 +7,5 @@ I also include a beautified version of the source code of the game, made possibl
 
 I guess I must have a way of not having to create the ```FakeEvent``` object, but that's the only way I could make it work. If you have any ideas, fork it, open an issue, you name it!
 
+Now with a cooler shooting effect by @giga_cardoso!
+
